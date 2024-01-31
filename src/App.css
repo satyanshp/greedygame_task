@@ -1,0 +1,57 @@
+.App {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+}
+.date__container{
+  display: flex;
+  justify-content: space-between;
+  /* width: 90%; */
+  margin: 0 auto;
+  position: relative;
+}
+.datePicker__button{
+  padding: 6px 20px;
+  display: flex;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: #fff;
+  color: rgb(55, 55, 55);
+  border-radius: 2.5px;
+  border: 1px solid #70707038;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+}
+.date__picker{
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  z-index: 1000;
+}
+.setting_container{
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 15px;
+  border: 1px solid #EAEAEA;
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin-top: 1%;
+  gap: 7px;
+}
+.setting_sort{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.setting_dragButtons{
+  /* border-left: 3.5px solid rgb(61, 145, 255); */
+  width: 10.5vw;
+  text-align: left;
+  justify-content: flex-start;
+  color: rgb(59, 59, 59);
+}
